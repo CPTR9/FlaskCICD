@@ -5,7 +5,7 @@ pipeline {
         stage('Clone repository') {
             steps {
                 // Clone the Git repository
-                git branch: 'main', url: 'https://github.com/user/repo.git'
+                git branch: 'main', url: 'https://github.com/CPTR9/FlaskCICD.git'
             }
         }
 
